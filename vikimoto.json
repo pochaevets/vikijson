@@ -1,25 +1,18 @@
 [
 {
-	name: "Наименование товара",
-	price: "100 000",
-	code: "123-456789",
-	features: [{name: "Ширина", value: "1"}
-				, {name: "Высота", value: "1"}
-				, {name: "Год", value: "1965"}
-				, {name: "Модель", value: "Model1"}],
-	stock: [{name: "Дальний склад", stockpile: "500"}
-			, {name: "Ближний склад", stockpile: "1000"}]
-},
-{
-	name: "Наименование товара2",
-	price: "200 000",
-	code: "987-456789",
-	features: [{name: "Ширина", value: "2"}
-				, {name: "Высота", value: "3"}
-				, {name: "Год", value: "1984"}
-				, {name: "Модель", value: "Model4"}],
-	stock: [{name: "Дальний склад", stockpile: "569"}
-			, {name: "Ближний склад", stockpile: "125"}]
+	"name": "Наименование товара",
+	"price": "100 000",
+	"code": "123-456789",
+	"wholesale_price": 125, // цена закупочная
+    "active" : 1 | 0, // выключен или включен товар
+    "description": "Описание", // описание товара
+    "main_category": "id", // гуид раздела
+    "other_categories": ["id1", "id2"], // гуид разделов остальных (если надо)
+	"features": [{"name": "Ширина", "value": "1"}
+				, {"name": "Высота", "value": "1"}
+				, {"name": "Год", "value": "1965"}
+				, {"name": "Модель", "value": "Model1"}],
+	"stock": [{"name": "Дальний склад", "stockpile": "500"}
+			, {"name": "Ближний склад", "stockpile": "1000"}]
 }
-
 ]
