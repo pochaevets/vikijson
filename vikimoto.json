@@ -9,10 +9,10 @@
     "main_category": "id", // гуид раздела
     "other_categories": ["id1", "id2"], // гуид разделов остальных (если надо)
 	"brand": "Марка, модель",
-	"features": [{"name": "Ширина", "value": "1"}
-				, {"name": "Высота", "value": "1"}
-				, {"name": "Год", "value": "1965"}],
-	"stock": [{"name": "Дальний склад", "stockpile": "500"}
-			, {"name": "Ближний склад", "stockpile": "1000"}]
+	"features": [{"name": "Ширина", "value": "1", "id": "4bf85396-cc7a-11ea-9ef0-c86000245adb"}
+				, {"name": "Высота", "value": "1", "id": "4bf85396-cc7a-11ea-9ef0-c86000245adb"}
+				, {"name": "Год", "value": "1965", "id": "4bf85396-cc7a-11ea-9ef0-c86000245adb"}],
+	"stock": [{"name": "Дальний склад", "stockpile": "500", "id": "4bf85396-cc7a-11ea-9ef0-c86000245adb"}
+			, {"name": "Ближний склад", "stockpile": "1000", "id": "4bf85396-cc7a-11ea-9ef0-c86000245adb"}]
 }
 ]
