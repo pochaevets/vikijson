@@ -8,10 +8,10 @@
     "description": "Описание", // описание товара
     "main_category": "id", // гуид раздела
     "other_categories": ["id1", "id2"], // гуид разделов остальных (если надо)
+	"brand": "Марка, модель",
 	"features": [{"name": "Ширина", "value": "1"}
 				, {"name": "Высота", "value": "1"}
-				, {"name": "Год", "value": "1965"}
-				, {"name": "Модель", "value": "Model1"}],
+				, {"name": "Год", "value": "1965"}],
 	"stock": [{"name": "Дальний склад", "stockpile": "500"}
 			, {"name": "Ближний склад", "stockpile": "1000"}]
 }
